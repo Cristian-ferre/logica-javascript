@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="exercicio3()">3. Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+    </button>
+
+    <button onclick="exercicio4()">4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+    </button>
+
+    <script>
+        function exercicio3(){
+            let v1 = parseInt(prompt("insira o Primeiro numero:"));
+            let v2 = parseInt(prompt("insira o 2 numero:"));
+            let v3 = parseInt(prompt("insira o 3 numero:"));
+
+            if(v1 > v2 && v1 > v3){
+                alert(v1)
+            }else if(v2 > v1 && v2 > v3){
+                alert(v2)
+            };
+
+            if(v3 > v1 && v3 > v2){
+                alert(v3)
+            };
+        
+        };
+
+        /*function exercicio4(){
+            let v1 = parseInt(prompt("insira o Primeiro numero:"));
+            let v2 = parseInt(prompt("insira o 2 numero:"));
+            let v3 = parseInt(prompt("insira o 3 numero:"));
+            let maior1 = 0;
+            if(v1 > v2){
+                maior1 = v1;
+                
+            }else if(v2 > v1 ){
+                maior1 = v2;
+                
+            };
+
+            if(v3 > maior1){
+                maior1 = v3
+                alert(maior1)
+            }else if(maior1 > v3){
+                alert(maior1)
+            };
+            
+};*/
+        function exercicio4(){
+            let v1 = parseInt(prompt("insira o primeiro numero: "))
+            let v2 = parseInt(prompt("insira o 2 numero:"));
+            let v3 = parseInt(prompt("insira o 3 numero:"));
+        }
+
+            
+        
+        
+
+
+    </script>
+    
+</body>
+</html>
